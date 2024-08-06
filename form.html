@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <main>
+        <div class="cabeza">
+            <header>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="/tabla.html">Tabla</a></li>
+                    <li><a href="/login.html">Login</a></li>
+                    <li><a href="/register.html">Register</a></li>
+                </ul>
+            </header>
+        </div>
+        <div class="login">
+            <form>
+                <input class="ingreso" type="text" placeholder="Ingersar Nombre" maxlength="30">
+                <input class="ingreso" type="text" placeholder="Ingresar Apellido" maxlength="30">
+                <input class="ingreso" type="email" placeholder="Ingresar email" required>
+                
+                <select class="opciones">
+                    <option>Solicitar presupuesto</option>
+                    <option>Solicitar cita previa</option>
+                    <option>Otros</option>
+                </select>
+
+                <label>
+                        <input type="checkbox">
+                        Un amigo
+                </label>
+                <label>
+                        <input type="checkbox">
+                        Googleando
+                </label>
+                <label>
+                    <input type="checkbox">
+                    Redes sociales
+                </label>
+                <label>
+                    <input type="checkbox">
+                    Otros
+                </label>
+                <label>
+                    <input type="checkbox" required>
+                    Acepto los terminos y condiciones
+                </label>
+                <input class="boton" type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
+</body>
+</html>

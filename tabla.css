@@ -1,0 +1,39 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.titulo{
+    color: rgb(82, 163, 201);
+    font-size: 60px;
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.selecciones{
+    background-color: #000;
+}
+
+table{
+    border: 5px solid;
+}
+
+th, td {
+    width: 25%;
+    text-align: flex;
+    vertical-align: top;
+    border: 1px solid #fff;
+    border-spacing: 0;
+}
+
+body{
+    background-image: url("img/messi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
