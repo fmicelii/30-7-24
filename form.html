@@ -20,10 +20,13 @@
             </header>
         </div>
         <div class="login">
-            <form>
-                <input class="ingreso" type="text" placeholder="Ingersar Nombre" maxlength="30">
-                <input class="ingreso" type="text" placeholder="Ingresar Apellido" maxlength="30">
-                <input class="ingreso" type="email" placeholder="Ingresar email" required>
+            <form action="form.php" method="post">
+                <input class="ingreso" type="text" name="nombre" placeholder="Ingersar Nombre" required>
+                <input class="ingreso" type="text" name="apellido" placeholder="Ingresar Apellido" required>
+                <input class="ingreso" type="email" name="email" placeholder="Ingresar email" required>
+                <input class="ingreso" type="text" name="direccion" placeholder="Ingresar direccion" required>
+                <input class="ingreso" type="password" name="contrasena" placeholder="Ingresar contrasena" required>
+                <input class="ingreso" type="text" name="telefono" placeholder="Ingresar telefono" required>
                 
                 <select class="opciones">
                     <option>Solicitar presupuesto</option>
@@ -48,7 +51,7 @@
                     Otros
                 </label>
                 <label>
-                    <input type="checkbox" required>
+                    <input type="checkbox">
                     Acepto los terminos y condiciones
                 </label>
                 <input class="boton" type="submit" value="Enviar">
